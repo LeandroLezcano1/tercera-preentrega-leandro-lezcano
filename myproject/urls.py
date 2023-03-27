@@ -20,12 +20,5 @@ from myapp.views import pagina_principal
 
 urlpatterns = [
     path('home/', pagina_principal, name='pagina_principal'),
-]
-
-urlpatterns = [
-    path('admin/', admin.site.urls),
-]
-
-urlpatterns = [
     path('buscar/', views.buscar_trabajador, name='buscar_trabajador'),
 ]
